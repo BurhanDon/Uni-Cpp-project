@@ -45,6 +45,16 @@ int main()
     else if (userOpt == 3)
     {
         cout << userName << endl;
+        cout << "Wanna Change your details?" << endl;
+        cout << "[1] Yes" << endl;
+        cout << "[2] No" << endl;
+        cin >> userOpt;
+        if (userOpt == 1)
+
+        {
+            cout << "[1] Change my Name " << endl
+                 << "[2] Change my Age" << endl;
+        }
     }
     else
     {
